@@ -3,3 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+.navbar-brand{
+    color: black;
+    font-size: 2em;
+}
+.navbar-brand:hover{
+color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    outline: none;
+    border-radius: 60px;
+    border:2px solid rgb(10, 93, 249);
+    margin-right: -35px;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(10, 93, 249);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
