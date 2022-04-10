@@ -67,7 +67,25 @@ color: black;
 }
 .btn1:hover{
     background-color: gray;
+    transition: 0.5s;
 }
 h1{
     font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 39px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 39px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 39px -9px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+.food{
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(images/food.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.food h1{
+    font-family: 'Anek Tamil', sans-serif;
+
 }
