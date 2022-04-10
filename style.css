@@ -65,3 +65,9 @@ color: black;
     font-weight: 700;
     border-radius: 60px;
 }
+.btn1:hover{
+    background-color: gray;
+}
+h1{
+    font-weight: 700;
+}
